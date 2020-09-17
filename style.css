@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 25%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0 auto;
+}
+.navbar a {
+    text-decoration: none;
+    color: rgb(197, 30, 175);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    
+}
+.navbar {
+    display: flex;
+    background-color: bisque;
+}
+.logo {
+    height: 60px;
+}
+.navbar li {
+    
+}
+
+
+.active{
+    background-color: rgb(165, 226, 21);
+}
+.navbar-img {
+    height: 60px;
+    
+}
+
+.img-box img {
+    width: 100%;
+    max-width: 200px;
+
+}
+
+.img-box{
+    padding: 5px;
+}
